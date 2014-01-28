@@ -16,7 +16,7 @@ Can you please implement the following interfaces and Guice module:
 
 There is no need to implement LogWriters, you may want to simulate them though.
 
-Please send a solution as a zip file to pavel.halas@wallstreetsystems.com.
+Please send a solution as a zip file via your agent.
 
 Thank you and good luck.
 
