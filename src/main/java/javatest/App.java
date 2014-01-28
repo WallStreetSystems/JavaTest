@@ -13,7 +13,7 @@
 package javatest;
 
 import javatest.impl.ConsoleWriter;
-import javatest.impl.ConstantlyLoggingServiceRunningOnWariousThreads;
+import javatest.impl.ConstantlyLoggingServiceRunningOnVariousThreads;
 import javatest.impl.DatabaseWriter;
 import javatest.impl.MailWriter;
 
@@ -49,8 +49,8 @@ public class App {
         log.info("Starting up");
 
         // Instantiated without Guice to show usage of different loggers
-        new ConstantlyLoggingServiceRunningOnWariousThreads(internalLog);
-        new ConstantlyLoggingServiceRunningOnWariousThreads(externalLog);
+        new ConstantlyLoggingServiceRunningOnVariousThreads(internalLog);
+        new ConstantlyLoggingServiceRunningOnVariousThreads(externalLog);
 
         // Writer registration may happen anytime, this is just an example
         manager.register(DatabaseWriter.class);
