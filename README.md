@@ -4,7 +4,7 @@ we would like you to implement a few classes in our example multithreaded applic
 
 The project is built using Maven in Eclipse so you may reuse it.
 
-We expect that you may need to do a bit of a research on Guice but hey, this is an knowledge that you will find very useful.
+We expect that you may need to do a bit of a research on Guice but hey, this is knowledge that you will find very useful.
 
 The main class is App.java that is an example of an application using logging. It doesn't compile and it's meant only as a 'specification by example'.
 
