@@ -14,6 +14,8 @@ Can you please implement the following interfaces and Guice module:
 * LogManager
 * LogModule
 
+We expect 3 Log categories to be bound by LogModule -- "DEFAULT" and two named ones -- "Internal" and "External". 
+
 There is no need to implement LogWriters, you may want to simulate them though.
 
 Please send a solution as a zip file via your agent.
