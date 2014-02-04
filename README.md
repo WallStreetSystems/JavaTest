@@ -1,6 +1,6 @@
 Hi,
 
-we would like you to implement a few classes in our example multithreaded application to see your problem solving skills. There is no time limit, you may use google or whatever -- the point is just to provide us with the solution that is in your opinion nice and tidy, peformant most importantly working.
+we would like you to implement a few classes in our example multithreaded application to see your problem solving skills. There is no time limit, you may use google or whatever -- the point is just to provide us with the solution that is in your opinion nice and tidy, peformant and most importantly working.
 
 The project is built using Maven in Eclipse so you may reuse it.
 
