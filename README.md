@@ -6,7 +6,7 @@ The project is built using Maven in Eclipse so you may reuse it.
 
 We expect that you may need to do a bit of a research on Guice but hey, this is knowledge that you will find very useful.
 
-The main class is App.java that is an example of an application using logging. It doesn't compile and it's meant only as a 'specification by example'. It will be used to test your solution.
+The main class is App.java that is an example of an application using logging. It doesn't compile and it's meant only as a 'specification by example'.
 
 Can you please implement the following interfaces and Guice module:
 
@@ -14,9 +14,9 @@ Can you please implement the following interfaces and Guice module:
 * LogManager
 * LogModule
 
-We expect 3 Log categories to be bound by LogModule -- "DEFAULT" and two named ones -- "Internal" and "External". 
+There is no need to implement anything else.
 
-There is no need to implement LogWriters, you may want to simulate them though.
+We expect 3 Log categories to be bound by LogModule -- "DEFAULT" and two named ones -- "Internal" and "External". 
 
 Please send a solution as a zip file via your agent.
 
