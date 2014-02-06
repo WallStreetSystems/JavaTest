@@ -49,8 +49,8 @@ public class App {
         log.info("Starting up");
 
         // Instantiated without Guice to show usage of different loggers
-        new ConstantlyLoggingServiceRunningOnVariousThreads(internalLog);
-        new ConstantlyLoggingServiceRunningOnVariousThreads(externalLog);
+        new ConstantlyLoggingServiceRunningOnVariousThreads(internalLog).work();
+        new ConstantlyLoggingServiceRunningOnVariousThreads(externalLog).work();
 
         // Writer registration may happen anytime, this is just an example
         manager.register(DatabaseWriter.class);
