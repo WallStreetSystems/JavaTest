@@ -1,8 +1,4 @@
 /**
- * File:    App.java
- * Author:  Pavel Halas
- * Created: 24 Jan 2014
- *
  * Copyright (c) 2014 Wall Street Systems, Delaware Inc.
  * All Rights reserved.
  *
@@ -24,7 +20,7 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 
 /**
- * Example of multithreading application using loggers.
+ * Example of multithreading application using your logging engine.
  */
 public class App {
 
@@ -48,7 +44,7 @@ public class App {
         // Expected to have 'DEFAULT' category
         log.info("Starting up");
 
-        // Instantiated without Guice to show usage of different loggers
+        // Instantiated without Guice to show usage of different logs
         new ConstantlyLoggingServiceRunningOnVariousThreads(internalLog).work();
         new ConstantlyLoggingServiceRunningOnVariousThreads(externalLog).work();
 
