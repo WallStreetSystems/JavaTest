@@ -1,8 +1,4 @@
 /**
- * File:    RateUpdater.java
- * Author:  Pavel Halas
- * Created: 24 Jan 2014
- *
  * Copyright (c) 2014 Wall Street Systems, Delaware Inc.
  * All Rights reserved.
  *
