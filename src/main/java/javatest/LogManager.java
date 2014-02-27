@@ -10,7 +10,6 @@ package javatest;
 
 /**
  * Holds all registered writers and dispatches messages to all of them.
- * In real life, this would be split into 2 interfaces.
  */
 public interface LogManager {
 
