@@ -9,7 +9,7 @@
 package javatest;
 
 /**
- * Application interface to log messages.
+ * Application interface to log messages. Uses LogManager to dispatch all the messages.
  */
 public interface Log {
 
