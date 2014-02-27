@@ -6,9 +6,11 @@ The project is built using Maven in Eclipse so you may reuse it.
 
 We expect that you may need to do a bit of a research on Guice but hey, this is knowledge that you will find very useful.
 
+The task is about implementing an in house logging framework that needs to be simple, thread-safe and performant.
+
 The main class is App.java that is an example of an application using logging. It doesn't compile and it's meant only as a 'specification by example'.
 
-Can you please implement the following interfaces and Guice module:
+Can you please implement the following interfaces and Guice module in production level quality:
 
 * Log
 * LogManager
